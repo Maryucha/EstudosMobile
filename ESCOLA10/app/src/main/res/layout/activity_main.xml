@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="73dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconetopo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/Tudo"
+        android:layout_width="393dp"
+        android:layout_height="567dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/layDados"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblNota1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:labelFor="@id/editN1"
+                android:text="@string/strNota1" />
+
+            <EditText
+                android:id="@+id/editN1"
+                android:layout_width="225dp"
+                android:layout_height="63dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:labelFor="@id/lblNota1" />
+
+            <TextView
+                android:id="@+id/lblNota2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:labelFor="@id/editN2"
+                android:text="@string/strNota2" />
+
+            <EditText
+                android:id="@+id/editN2"
+                android:layout_width="228dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:labelFor="@id/lblNota2" />
+
+            <Button
+                android:id="@+id/btnCalc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#4CAF50"
+                android:onClick="calcular"
+                android:text="@string/strCalc"
+                android:textColor="#F9F9FC"
+                android:textColorHint="#00F7F4F4"
+                android:textColorLink="#00F0EDED"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layRespostas"
+            android:layout_width="380dp"
+            android:layout_height="318dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strMedia" />
+
+            <TextView
+                android:id="@+id/txtMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str0"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/lblResposta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strSituacao" />
+
+            <TextView
+                android:id="@+id/txtResp"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:text="@string/strVamosVer"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imgSit"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:contentDescription="@string/strVamosVer"
+                app:srcCompat="@drawable/emojiformatura" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

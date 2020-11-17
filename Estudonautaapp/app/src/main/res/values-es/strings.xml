@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Estudonauta app</string>
+    <string name="srtDireitos">" Todos los derechos reservados para EstudosNauta.com"</string>
+    <string name="strEquipe">Equipo</string>
+    <string name="strCursos">Cursos</string>
+    <string name="strMidia">" Los Medios"</string>
+    <string name="strBack">" Volver"</string>
+    <string name="strEquipeTitulo">Equipo Estudonauta</string>
+    <string name="strTituloCursos">Todos los  Cursos</string>
+</resources>

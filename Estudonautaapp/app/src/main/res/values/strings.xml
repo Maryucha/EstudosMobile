@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">Estudonauta app</string>
+    <string name="srtDireitos">All rights reserved for Estudonauta.com</string>
+    <string name="strEquipe">Team</string>
+    <string name="strCursos">Courses</string>
+    <string name="strMidia">Media</string>
+    <string name="strBack">Return</string>
+    <string name="strEquipeTitulo">Team Estudonauta</string>
+    <string name="strEquipeCaynan">Caynan Scremin (Edição de corte)</string>
+    <string name="strEquipeGuanabara">Gustavo Guanabara (Professor)</string>
+    <string name="strEquipeItalo">Italo Alves (Edição de corte)</string>
+    <string name="strEquipeMichel">Michel Guanabara (Finalização)</string>
+    <string name="strEquipePriscila">Priscila Marinho (Programadora)</string>
+    <string name="strEqipeRamon">Ramon Felinto (Desing)</string>
+    <string name="strEquipeVerinha">Vera Machado (Tutora)</string>
+    <string name="strEquipeIgor">Igor Escure (Finalização)</string>
+    <string name="strEquipeDescricao">A ideia do <b>estudonauta</b> nasceu em 2016 e desde então vários vídeos de
+        teste vêm sido gravados para validar a ideia e modelar o formato. Nofinal de 2017 foi
+        aberto o <b><i>Alpha Testing</i></b> para <u>200 alunos Fundadores</u> e no final de 2018 foi aberto o <b><i>Beta Testing</i></b> para mais outros.
+    \n\n\tA plataforma conta hoje com centenas de aulas, divididas em módulos. A equipe começou com três pessoas e hoje conta
+        com oito profissionais, cada um especializado em uma área específica.
+    \n\n\tLogo, quando você recebe ummódulo novo e se prepara para assitir todos os vídeos, o trabalho foi
+        feito por toda essa galera, que listaremos a seguir:</string>
+    <string name="strTituloCursos">All Courses</string>
+
+</resources>
